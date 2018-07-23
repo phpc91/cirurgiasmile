@@ -1,0 +1,651 @@
+/*---TAMANHO VERTICAL DA PAGINA*/
+
+.footer-bottom {
+    height: 0;
+    padding: 0;
+}
+
+/*---END---*/
+
+/*---HEADER---*/
+
+#menu {
+    margin-top: 4%;
+    font-family: eurosoft-semibold;
+}
+#logo-container {
+    margin-left: 40%;
+}
+
+/*---END---*/
+
+/*---BANNER---*/
+
+.page-id-4 .content-slider-wrapper {
+    height: 895px;
+}
+
+.page-id-4 .content-slider-wrapper .col {
+    width: auto;
+    margin-top: 220px;
+}
+
+.page-id-4 .cs-layout-text-img {
+    padding-left: 1%;
+}
+
+#content-slider-2 {
+    padding-top: 325px;
+}
+
+.content-slider h2.cs-element {
+    font-family: eurosoft-semibold;
+    letter-spacing: 2px;
+}
+
+.content-slider p.cs-element {
+    font-family: gothamlight;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+.content-slider .button {
+    background-image: url('http://cirurgiasmile.com.br/wp-content/uploads/sites/4/2018/04/banner-button-v2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 328px;
+    padding: 8px 0;
+    border-radius: 0;
+    font-family: eurosoft-semibold;
+    font-size: 15pt;
+}
+
+/*---END---*/
+
+/*---SOBRE---*/
+
+.page-id-4 #section-1 {
+/*    height: 3150px;*/
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    max-width: 1400px;
+    padding: 0;
+}
+
+h1 {
+    font-family: eurosoft-semibold;
+    font-size: 35px;
+    line-height: 1.05;
+    padding: 0;
+    margin-bottom: 38px;
+}
+
+p {
+    font-family: gothamlight;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+p strong {
+    font-family: gothammedium;
+}
+
+#sobre {
+    width: 93%;
+    height: 750px;
+    position: absolute;
+    z-index: 5;
+    padding-left: 7%;
+}
+
+#sobre .col {
+    height: 720px;
+    position: relative;
+    margin-top: 60px;
+}
+
+#logo-bottom {
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+}
+
+#sobre-bg-img {
+    position: absolute;
+    z-index: 0;
+    height: 771px;
+    width: 870px;
+    left: 28%;
+}
+
+/*---END---*/
+
+/*---VIDEO---*/
+
+#video-section {
+    position: relative;
+    top: 800px;
+}
+
+#video-section h2 {
+    color: #ffffff;
+    font-family: eurosoft-semibold;
+    font-size: 35px;
+    line-height: 1.05;
+    padding: 0;
+    margin-bottom: 38px;
+}
+
+#video-section p {
+    font-family: gothamlight;
+    font-size: 17px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+#retangulo {
+    background-image: url('http://cirurgiasmile.com.br/visarerio/wp-content/uploads/sites/4/2018/04/video-bg.png');
+    height: 507px;
+}
+
+#texto-video {
+    margin-top: 95px;
+    margin-left: 7%;
+    width: auto;
+}
+
+#video-player {
+    margin-top: 100px;
+    margin-left: 40%;
+    position: absolute;
+    cursor: pointer;
+}
+
+#video {
+    height: 450px
+}
+
+/*---END---*/
+
+/*---BLOG---*/
+
+#blog-title-section {
+    position: absolute;
+    top: 1375px;
+    margin-left: 7%;
+}
+
+#blog-title-section h4 {
+    font-family: eurosoft-medium;
+    color: black;
+}
+
+#blog-title-section button {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.page-id-4 .pexeto-recent-posts {
+    position: absolute;
+    width: 100%;
+    top: 1540px;
+}
+
+.page-id-4 .pexeto-recent-posts .cols-wrapper {
+    margin: 0 4%;
+}
+
+.page-id-4 .rp h4 {
+    font-family: eurosoft-semibold;
+    font-size: 25pt;
+    line-height: 1.2;
+    width: 75%;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.page-id-4 .rp p {
+    font-family: gothamlight;
+    width: 65%;
+    color: #000000;
+    letter-spacing: 1.5px;
+}
+
+.read-more {
+    border: none;
+    font-family: eurosoft-bold;
+    font-size: 27pt;
+    color: black;
+}
+
+.blog .read-more {
+    font-size: 15pt;
+}
+
+.blog .post-title {
+    font-family: eurosoft-semibold;
+}
+
+.pexeto-related-posts > h3 {
+    font-family: eurosoft-bold;
+}
+
+.pexeto-related-posts .rp-post-title {
+    font-family: eurosoft-semibold;
+}
+
+/*---END---*/
+
+/*---INFOGRAFICO---*/
+
+#smile-no-mundo {
+    position: absolute;
+    top: 2200px;
+    width: 99.5vw;
+    margin-left: -5%;
+}
+
+/*---END---*/
+
+/*---LISTA-CLINICAS---*/
+
+#div-lista-clinicas {
+    width: 99.5vw;
+    margin-left: -5%;
+    position: absolute;
+    top: 2610px;
+    height: 950px;
+}
+
+#div-lista-clinicas img {
+    width: auto;
+    height: inherit;
+    max-width: unset;
+}
+
+#lista-clinicas {
+    position: absolute;
+    top: 100px;
+    width: 54%;
+    margin: 0 23%;
+    background-color: white; 
+    padding: 50px;
+}
+
+#lista-clinicas ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+#lista-clinicas li h1 {
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+#lista-clinicas li p {
+    margin: 0;
+    color: black;
+}
+
+#lista-clinicas .traco-sob-titulo {
+    margin: 20px 0;
+    width: 30px;
+    height: 5px;
+    border-radius: 4px;
+    background-color: black;
+}
+
+#lista-clinicas .lista-agendar-consulta {
+    position: relative;
+    left: 60%;
+    margin-top: -15%;
+    width: 28%;
+    height: 32px;
+    border-radius: 0;
+    border: none;
+    background-image: url('http://cirurgiasmile.com.br/wp-content/uploads/2018/07/agende-consulta-central.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#lista-clinicas .fim-item {
+    margin-bottom: 30px;
+}
+
+/*---END---*/
+
+/*---FOOTER---*/
+#footer {
+    height: 0;
+}
+
+#footer-div {
+    position: absolute;
+    top: 3570px;
+    width: 100%;
+}
+
+#footer-text {
+    margin-left: 20%;
+    margin-right: 0;
+}
+
+#footer-logo {
+    text-align: center;
+    width: 20%;
+    margin-left: 35%;
+}
+
+#footer-logo img {
+    margin-top: 0;
+}
+
+#footer-data {
+    width: auto;
+    margin-left: 9%;
+    padding-top: 20px;
+}
+
+#footer-data-text {
+    font-size: 14px;
+    font-family: eurosoft-light;
+}
+
+#footer-data-text strong {
+    font-family: eurosoft-semibold;
+}
+
+/*---END---*/
+
+/*---OUTRAS PAGINAS---*/
+/*---POSTS---*/
+
+.conteudo-post h2, .conteudo-post h3, .conteudo-post h4 {
+    font-family: eurosoft-semibold;
+}
+
+.conteudo-post p, .conteudo-post ul {
+    font-family: gothamlight;
+}
+
+
+/*---END---*/
+
+/*---RESPONSIVIDADE---*/
+/*---RESPONSIVIDADE-MOBILE---*/
+/* Smartphones (portrait and landscape) ideal width:375px----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /*menu superior*/
+    #logo-container {
+        margin-left: unset;
+    }
+    /*banner*/
+    .content-slider .section-boxed br {
+        display: none;
+    }
+    .content-slider .button {
+        width: 270px !important;
+    }
+    /* Sobre */
+    #sobre {
+        text-align: center;
+        padding-left: 3%;
+        height: 800px;
+    }
+    #sobre h1 br, #sobre p br {
+        display: none;
+    }
+    #sobre-bg-img{
+        display: none;
+    }
+    #logo-bottom {
+        bottom: 0;
+        margin-left: 18%;
+    }
+    /* video */
+    #retangulo {
+        height: 700px;
+    }
+    #texto-video{
+        margin: 20px !important;
+        width: inherit !important;
+    }
+    #video-player {
+        margin-left: 6%;
+        margin-top: 520px;
+    }
+    #video {
+        height: 170px;
+    }
+    #video-section br {
+        display: none;
+    }
+    /* blogs */
+    #blog-title-section {
+        top: 1510px !important;
+    }
+    .page-id-4 .pexeto-recent-posts {
+        top: 1700px !important;
+    }
+    /* infog */
+    #smile-no-mundo {
+        top: 3400px !important;
+    }
+    /* lista */
+    #div-lista-clinicas {
+        top: 3510px;
+    }
+
+    #div-lista-clinicas img {
+        max-width: 100%;
+        height: auto !important;
+    }
+
+    #lista-clinicas {
+        position: unset;
+        width: 90%;
+        margin: 0;
+        padding: 5%;
+    }
+
+    #lista-clinicas .lista-agendar-consulta {
+        position: unset;
+        margin-top: 5%;
+        width: 100%;
+        height: 32px;
+    }
+
+    /* footer */
+    #footer-div {
+        text-align: center;
+        top: 4900px;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Sobre */
+    #sobre {
+        text-align: center;
+        height: 470px;
+    }
+    /* video */
+    #video-section {
+        top: 550px;
+    }
+    /* blog */
+    #blog-title-section {
+        top: 1000px;
+    }
+    .page-id-4 .pexeto-recent-posts {
+        top: 1200px;
+    }
+
+    #smile-no-mundo {
+        top: 1800px;
+    }
+
+    #div-lista-clinicas {
+        width: 99.99vw;
+        margin-left: -4.35%;
+        top: 2080px;
+        height: 980px;
+    }
+
+    #div-lista-clinicas img {
+        max-width: unset;
+    }
+    #lista-clinicas {
+        margin: 0 19%;
+        padding: 40px;
+
+    }
+
+    #lista-clinicas .lista-agendar-consulta {
+        left: 70%;
+        margin-top: -20%;
+        width: 35%;
+        height: auto;
+    }
+
+    #footer-div {
+        top: 3100px;
+    }
+}
+
+/*---RESPONSIVIDADE-PC---*/
+@media screen and (min-width: 1023px) and (max-width: 1280px){
+    #sobre br{
+        display: none;
+    }
+    #sobre .col {
+        text-align: left;
+        height: auto;
+
+    }
+    #sobre-bg-img {
+        left: 45%;
+        width: auto;
+        height: auto;
+    }
+    #footer-logo {
+        margin-right: 0;
+        width: fit-content;
+        margin-left: 20%;
+    }
+    #footer-text {
+        margin-right: 0;
+        margin-left: 25%;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
+    }
+    #video-player {
+        margin-top: 5.6%;
+        margin-left: 45%;
+    }
+    #texto-video {
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    #retangulo {
+        height: 400px;
+    }
+    #video {
+        height: 280px;
+        margin-left: 10px;
+    }
+    #video-section h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1367px){
+    #footer-logo {
+        margin-right: 30px;
+        width: fit-content;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
+    }
+    #video-player {
+        margin-top: 5.6%;
+        margin-left: 38%;
+    }
+    #texto-video {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    #retangulo {
+        height: 400px;
+    }
+    #video {
+        height: 400px;
+        margin-left: 10px;
+    }
+    #video-section h2 {
+        font-size: 30px;
+    }
+
+    #div-lista-clinicas {
+        top: 2560px;
+    }
+
+    #lista-clinicas {
+        margin: 0 22%;
+    }
+}
+
+@media screen and (min-width: 1368px) and (max-width: 1440px){
+    #footer-logo {
+        margin-right: 30px;
+        width: fit-content;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
+    }
+    #video-player {
+        margin-top: 5.6%;
+        margin-left: 38%;
+    }
+    #texto-video {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    #retangulo {
+        height: 400px;
+    }
+    #video {
+        height: 400px;
+        margin-left: 10px;
+    }
+    #video-section h2 {
+        font-size: 32px;
+    }
+    #div-lista-clinicas {
+        width: 99.99vw;
+        margin-left: -4.3%;
+        height: 975px;
+        top: 2580px;
+    }
+    #div-lista-clinicas img {
+        width: auto;
+        height: inherit;
+    }
+    #footer-text {
+        margin-left: 21%;
+    }
+    #footer-logo {
+        margin-right: 0;
+        margin-left: 39%;
+    }
+}
