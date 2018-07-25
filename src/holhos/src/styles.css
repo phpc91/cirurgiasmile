@@ -707,9 +707,16 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #contato {
         top: 2750px;
     }
+    #contato div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+        letter-spacing: 1.8px !important;
+    }
 
     #footer-div {
         top: 3250px;
+    }
+    #footer-logo {
+        width: fit-content;
+        margin-right: 20px !important;
     }
 
     #footer-div hr {
