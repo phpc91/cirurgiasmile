@@ -1,0 +1,691 @@
+/*---TAMANHO VERTICAL DA PAGINA*/
+
+.footer-bottom {
+    height: 0;
+    padding: 0;
+}
+
+/*---END---*/
+
+/*---HEADER---*/
+
+#menu {
+    margin-top: 4%;
+    font-family: es-semibold;
+}
+
+/*---END---*/
+
+/*---BANNER---*/
+
+.content-slider-wrapper {
+    height: 895px;
+}
+
+.content-slider-wrapper .col {
+    width: auto;
+}
+
+.cs-layout-text-img {
+    padding-left: 1%;
+}
+
+.content-slider {
+    padding-top: 415px;
+    padding-left: 4%;
+}
+
+.content-slider h2.cs-element {
+    font-family: es-semibold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.content-slider p.cs-element {
+    font-family: gothamlight;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+.content-slider .button {
+    background-image: url('http://cirurgiasmile.com.br/iconedavisao/wp-content/uploads/sites/7/2018/07/agende-consulta-icone-75.png');
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 328px;
+    padding: 8px 0;
+    border-radius: 0;
+    font-family: es-semibold;
+    font-size: 15pt;
+}
+
+/*---END---*/
+
+/*---SOBRE---*/
+
+.page-id-22 #section-1 {
+    height: 3150px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    max-width: 1400px;
+    padding: 0;
+}
+
+h1 {
+    font-family: es-semibold;
+    font-size: 35px;
+    line-height: 1.05;
+    padding: 0;
+    margin-bottom: 38px;
+}
+
+p {
+    font-family: gothamlight;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+p strong {
+    font-family: gothammedium;
+    color: #808080
+}
+
+#sobre {
+    width: 93%;
+    height: 750px;
+    position: absolute;
+    z-index: 5;
+    padding-left: 7%;
+}
+
+#sobre .col {
+    height: 720px;
+    position: relative;
+    margin-top: 60px;
+}
+
+#logo-bottom {
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+}
+
+#sobre-bg-img {
+    position: absolute;
+    z-index: 0;
+    height: 771px;
+    width: 870px;
+    left: 28%;
+}
+
+/*---END---*/
+
+/*---VIDEO---*/
+
+#video-section {
+    position: relative;
+    top: 800px;
+}
+
+#video-section h2 {
+    color: #ffffff;
+    font-family: es-semibold;
+    font-size: 35px;
+    line-height: 1.05;
+    padding: 0;
+    margin-bottom: 38px;
+}
+
+#video-section p {
+    font-family: gothamlight;
+    font-size: 17px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+#retangulo {
+    background-image: url('http://cirurgiasmile.com.br/visarerio/wp-content/uploads/sites/4/2018/04/video-bg.png');
+    height: 507px;
+}
+
+#texto-video {
+    margin-top: 95px;
+    margin-left: 7%;
+    width: auto;
+}
+
+#video-player {
+    margin-top: 100px;
+    margin-left: 40%;
+    position: absolute;
+    cursor: pointer;
+}
+
+#video {
+    height: 450px
+}
+
+/*---END---*/
+
+/*---BLOG---*/
+
+#blog-title-section {
+    position: absolute;
+    top: 1375px;
+    margin-left: 7%;
+}
+
+#blog-title-section h4 {
+    font-family: es-medium;
+    color: black;
+}
+
+#blog-title-section button {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.page-id-22 .pexeto-recent-posts {
+    position: absolute;
+    width: 100%;
+    top: 1540px;
+}
+
+.page-id-22 .pexeto-recent-posts .cols-wrapper {
+    margin: 0 4%;
+}
+
+.page-id-22 .rp h4 {
+    font-family: es-semibold;
+    font-size: 25pt;
+    line-height: 1.2;
+    width: 75%;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.page-id-22 .rp p {
+    font-family: gothamlight;
+    width: 65%;
+    color: #000000;
+    letter-spacing: 1.5px;
+}
+
+.read-more {
+    border: none;
+    font-family: es-bold;
+    font-size: 27pt;
+}
+
+.blog .read-more {
+    font-size: 15pt;
+}
+
+.blog .post-title {
+    font-family: es-semibold;
+}
+
+.pexeto-related-posts > h3 {
+    font-family: es-bold;
+}
+
+.pexeto-related-posts .rp-post-title {
+    font-family: es-semibold;
+}
+
+/*---END---*/
+
+/*---INFOGRAFICO---*/
+
+#smile-no-mundo {
+    position: absolute;
+    top: 2200px;
+    width: 99.5vw;
+    margin-left: -5%;
+}
+
+/*---END---*/
+
+/*---FORMULARIO---*/
+
+#contato {
+    position: absolute;
+    top: 2650px;
+    width: 40%;
+    left: 50%;
+    margin-left: -20%;
+    text-align: center;
+}
+
+#wpforms-41 textarea {
+    max-width: 100%;
+}
+
+#wpforms-41 ::placeholder {
+    color: #aaaaaa;
+    font-family: es-regular;
+    letter-spacing: 5px;
+    padding-left: 15px;
+}
+
+#wpforms-41_field-2 {
+    border: 1.5px solid #aaaaaa;
+    border-radius: 0;
+}
+
+#wpforms-41_field-7 {
+    height: auto;
+}
+
+#wpforms-41 .wpforms-head-container {
+    font-family: es-semibold;
+    color: #425068;
+}
+
+#wpforms-41 .wpforms-field-container {
+    font-family: es-regular;
+}
+
+#wpforms-submit-41 {
+    border: unset;
+    background-color: transparent;
+    background-image: url('http://cirurgiasmile.com.br/visarerio/wp-content/uploads/sites/4/2018/04/form-send-button.png');
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 27px;
+    font-family: es-regular;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0;
+    color: white;
+    position: relative;
+    margin-left: 84%;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text] {
+    border-radius: 0;
+    border: 1px solid #aaaaaa;
+}
+
+/*radio button style*/
+
+.depth-1 input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    overflow: hidden;
+}
+
+.depth-1 label {
+    color: #747474;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.depth-1 label:hover {
+    cursor: pointer;
+}
+
+.depth-1 input:checked+label {
+    background-color: #425068;
+    color: #b1b5bd;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline, div.wpforms-container-full .wpforms-form textarea {
+    border: 1px solid #aaaaaa;
+    padding: 8px;
+    letter-spacing: 2px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+    padding-right: 6% !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+    padding-left: 7.4% !important;
+    padding-right: 0 !important;
+}
+
+/*end radio button style*/
+
+/*---END---*/
+
+/*---FOOTER---*/
+#footer {
+    height: 0;
+}
+
+#footer-div {
+    position: absolute;
+    top: 3150px;
+    width: 100%;
+}
+
+#footer-div hr {
+    position: absolute;
+    top: -20px;
+    width: 99.5vw;
+    margin-left: -5%;
+}
+
+#footer-logo {
+    text-align: center;
+    width: 20%;
+}
+
+#footer-logo img {
+    margin-top: 0;
+}
+
+#footer-data {
+    width: 50%;
+    margin-left: 9%;
+    padding-top: 10px;
+}
+
+#footer-data-text {
+    font-size: 14px;
+    font-family: es-light;
+}
+
+#footer-data-text strong {
+    font-family: es-semibold;
+}
+
+/*---END---*/
+
+/*---OUTRAS PAGINAS---*/
+/*---POSTS---*/
+
+.conteudo-post h2, .conteudo-post h3, .conteudo-post h4 {
+    font-family: es-semibold;
+}
+
+.conteudo-post p, .conteudo-post ul {
+    font-family: gothamlight;
+}
+
+
+/*---END---*/
+
+/*---CONFIRMACAO-FORM---*/
+
+.return {
+    font-family: es-semibold;
+    background-image: url('http://cirurgiasmile.com.br/visarerio/wp-content/uploads/sites/4/2018/06/home.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 0;
+    width: 107px;
+    height: 31px;   
+}
+
+/*---END---*/
+/*---BLOG---*/
+.page-id-68 .content-slider-wrapper{
+    height: 595px;
+}
+/*---END---*/
+/*---RESPONSIVIDADE---*/
+/*---RESPONSIVIDADE-MOBILE---*/
+/* Smartphones (portrait and landscape) ideal width:375px----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /*banner*/
+    .content-slider .section-boxed br {
+        display: none;
+    }
+    .content-slider .button {
+        width: 270px !important;
+    }
+    /* Sobre */
+    #sobre {
+        text-align: center;
+        padding-left: 3%;
+        height: 800px;
+    }
+    #sobre h1 br, #sobre p br {
+        display: none;
+    }
+    #sobre-bg-img{
+        display: none;
+    }
+    #logo-bottom {
+        bottom: 0;
+        margin-left: 18%;
+    }
+    /* video */
+    #retangulo {
+        height: 700px;
+    }
+    #texto-video{
+        margin: 20px !important;
+        width: inherit !important;
+    }
+    #video-player {
+        margin-left: 6%;
+        margin-top: 520px;
+    }
+    #video {
+        height: 170px;
+    }
+    #video-section br {
+        display: none;
+    }
+    /* blogs */
+    #blog-title-section {
+        top: 1510px !important;
+    }
+    .page-id-22 .pexeto-recent-posts {
+        top: 1700px !important;
+    }
+    /* infog */
+    #smile-no-mundo {
+        /*=1700+1890*/
+        top: 3600px !important;
+    }
+    /* form */
+    #contato {
+        top: 3750px;
+        width: auto;
+        left: unset;
+        margin-left: unset;
+    }
+    #wpforms-submit-41 {
+        margin-left: unset;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    /* footer */
+    #footer-div {
+        text-align: center;
+        top: 4275px;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Sobre */
+    #sobre {
+        text-align: center;
+    }
+}
+
+/*---RESPONSIVIDADE-PC---*/
+@media screen and (min-width: 1023px) and (max-width: 1280px){
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 10% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-right: 0 !important;
+        padding-left: 11.5% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+        font-size: unset;
+    }
+    #footer-logo {
+        margin-right: 30px;
+        width: fit-content;
+    }
+    #footer-text {
+        margin-right: 0;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
+    }
+    #video-player {
+        margin-top: 5.6%;
+        margin-left: 45%;
+    }
+    #texto-video {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    #retangulo {
+        height: 400px;
+    }
+    #video {
+        height: 280px;
+        margin-left: 10px;
+    }
+    #video-section h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1367px){
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 10% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-right: 0 !important;
+        padding-left: 11.5% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+        font-size: unset;
+    }
+    #footer-logo {
+        margin-right: 30px;
+        width: fit-content;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
+    }
+    #video-player {
+        margin-top: 5.6%;
+        margin-left: 38%;
+    }
+    #texto-video {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    #retangulo {
+        height: 400px;
+    }
+    #video {
+        height: 400px;
+        margin-left: 10px;
+    }
+    #video-section h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1368px) and (max-width: 1440px){
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 10% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-right: 0 !important;
+        padding-left: 11.5% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+        font-size: unset;
+    }
+    #footer-logo {
+        margin-right: 30px;
+        width: fit-content;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
+    }
+    #video-player {
+        margin-top: 5.6%;
+        margin-left: 38%;
+    }
+    #texto-video {
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    #retangulo {
+        height: 400px;
+    }
+    #video {
+        height: 400px;
+        margin-left: 10px;
+    }
+    #video-section h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+    .page-id-22 #section-1 {
+        margin-left: 13.5%;
+        margin-right: 13.5%;
+    }
+
+    #sobre {
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    #sobre-bg-img {
+        left: 32%;
+    }
+
+
+    #smile-no-mundo {
+        width: 99.9vw;
+        margin-left: -18.5%;
+    }
+
+    #contato {
+        top: 2750px;
+    }
+    #contato div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+        letter-spacing: 1.8px !important;
+    }
+
+    #footer-div {
+        top: 3250px;
+    }
+
+    #footer-div hr {
+        width: 99.9vw;
+        margin-left: -18.5%;
+    }
+}
