@@ -256,43 +256,43 @@ p strong {
 
 #contato {
     position: absolute;
-    top: 2650px;
+    top: 3190px;
     width: 40%;
     left: 50%;
     margin-left: -20%;
     text-align: center;
 }
 
-#wpforms-41 textarea {
+#wpforms-38 textarea {
     max-width: 100%;
 }
 
-#wpforms-41 ::placeholder {
+#wpforms-38 ::placeholder {
     color: #aaaaaa;
     font-family: es-regular;
     letter-spacing: 5px;
     padding-left: 15px;
 }
 
-#wpforms-41_field-2 {
+#wpforms-38_field-2 {
     border: 1.5px solid #aaaaaa;
     border-radius: 0;
 }
 
-#wpforms-41_field-7 {
+#wpforms-38_field-7 {
     height: auto;
 }
 
-#wpforms-41 .wpforms-head-container {
+#wpforms-38 .wpforms-head-container {
     font-family: es-semibold;
     color: #425068;
 }
 
-#wpforms-41 .wpforms-field-container {
+#wpforms-38 .wpforms-field-container {
     font-family: es-regular;
 }
 
-#wpforms-submit-41 {
+#wpforms-submit-38 {
     border: unset;
     background-color: transparent;
     background-image: url('http://cirurgiasmile.com.br/visarerio/wp-content/uploads/sites/4/2018/04/form-send-button.png');
@@ -366,7 +366,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 
 #footer-div {
     position: absolute;
-    top: 3150px;
+    top: 3750px;
     width: 100%;
 }
 
@@ -500,7 +500,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         left: unset;
         margin-left: unset;
     }
-    #wpforms-submit-41 {
+    #wpforms-submit-38 {
         margin-left: unset;
     }
     div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
