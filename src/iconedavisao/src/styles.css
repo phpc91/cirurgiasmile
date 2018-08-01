@@ -761,26 +761,8 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1367px){
-    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
-        padding-right: 10% !important;
-        font-size: 11px;
-    }
-    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
-        padding-right: 0 !important;
-        padding-left: 11.5% !important;
-        font-size: 11px;
-    }
-    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
-        font-size: unset;
-    }
-    #footer-logo {
-        margin-right: 30px;
-        width: fit-content;
-    }
-    #footer-div hr, #smile-no-mundo{
-        margin-left: -4.4%;
-        width: 99.99vw;
-    }
+    /*sobre*/
+    /*video*/
     #video-player {
         margin-top: 5.6%;
         margin-left: 38%;
@@ -799,9 +781,8 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #video-section h2 {
         font-size: 30px;
     }
-}
-
-@media screen and (min-width: 1368px) and (max-width: 1440px){
+    /*blog*/
+    /*form*/
     div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
         padding-right: 10% !important;
         font-size: 11px;
@@ -814,6 +795,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
         font-size: unset;
     }
+    /*footer*/
     #footer-logo {
         margin-right: 30px;
         width: fit-content;
@@ -822,6 +804,10 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         margin-left: -4.4%;
         width: 99.99vw;
     }
+}
+
+@media screen and (min-width: 1368px) and (max-width: 1440px){
+    /*video*/
     #video-player {
         margin-top: 5.6%;
         margin-left: 38%;
@@ -840,6 +826,28 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #video-section h2 {
         font-size: 32px;
     }
+    /*form*/
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 10% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-right: 0 !important;
+        padding-left: 11.5% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+        font-size: unset;
+    }
+    /*footer*/
+    #footer-logo {
+        margin-right: 30px;
+        width: fit-content;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
+    }
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
@@ -847,35 +855,55 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         margin-left: 13.5%;
         margin-right: 13.5%;
     }
-
+    /*sobre*/
     #sobre {
         width: 100%;
         padding-left: 10%;
     }
-
     #sobre-bg-img {
         left: 32%;
     }
-
-
+    /*blog*/
+    #blog-title-section {
+        margin-left: 2%;
+    }
+    .page-id-22 .pexeto-recent-posts {
+        width: 80vw;
+    }
+    /*infog*/
     #smile-no-mundo {
         width: 99.9vw;
         margin-left: -18.5%;
     }
-
+    /*form*/
     #contato {
-        top: 2750px;
+        top: 3330px;
     }
     #contato div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
         letter-spacing: 1.8px !important;
     }
-
+    /*footer*/
     #footer-div {
-        top: 3250px;
+        top: 3825px;
     }
-
+    #footer-div .cols-wrapper {
+        width: 99vw;
+        margin-left: -17%;
+    }
     #footer-div hr {
         width: 99.9vw;
         margin-left: -18.5%;
+    }
+    #footer-logo {
+        width: 12%;
+        margin-left: 5%;
+    }
+    #disclaimer {
+        width: auto;
+        margin-right: 25px;
+    }
+    #footer-data {
+        width: auto;
+        margin-left: 15%;
     }
 }
