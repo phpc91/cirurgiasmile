@@ -279,7 +279,7 @@ p strong {
     border-radius: 0;
 }
 
-#wpforms-38_field-7 {
+#wpforms-38_field-1 {
     height: auto;
 }
 
@@ -355,10 +355,6 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     padding-right: 0 !important;
 }
 
-/*end radio button style*/
-
-/*---END---*/
-
 /*---FOOTER---*/
 #footer {
     height: 0;
@@ -432,7 +428,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 
 /*---END---*/
 /*---BLOG---*/
-.page-id-68 .content-slider-wrapper{
+.page-id-7 .content-slider-wrapper{
     height: 595px;
 }
 /*---END---*/
