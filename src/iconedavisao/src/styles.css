@@ -313,8 +313,8 @@ p strong {
     letter-spacing: 1px;
     padding: 0;
     color: white;
-    position: relative;
-    margin-left: 84%;
+    position: absolute;
+    right: 0;
 }
 
 div.wpforms-container-full .wpforms-form input[type=text] {
@@ -435,7 +435,6 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     height: 31px;   
 }
 
-/*---END---*/
 /*---BLOG---*/
 .page-id-7 .content-slider-wrapper{
     height: 579px;
@@ -449,11 +448,11 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 .page-id-7 .lp-post-info {
     font-family: es-light; 
 }
-/*---END---*/
+
 /*---RESPONSIVIDADE---*/
 /*---RESPONSIVIDADE-MOBILE---*/
-/* Smartphones (portrait and landscape) ideal width:375px----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Smartphones small ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
     /*banner*/
     .content-slider .section-boxed br {
         display: none;
@@ -486,11 +485,11 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         width: inherit !important;
     }
     #video-player {
-        margin-left: 6%;
-        margin-top: 520px;
+        margin-left: 5.4%;
+        margin-top: 530px;
     }
     #video {
-        height: 170px;
+        height: 150px;
     }
     #video-section br {
         display: none;
@@ -504,12 +503,11 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
     /* infog */
     #smile-no-mundo {
-        /*=1700+1890*/
-        top: 3600px !important;
+        top: 5420px !important;
     }
     /* form */
     #contato {
-        top: 3750px;
+        top: 5550px;
         width: auto;
         left: unset;
         margin-left: unset;
@@ -528,7 +526,163 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     /* footer */
     #footer-div {
         text-align: center;
-        top: 4275px;
+        top: 6075px;
+    }
+}
+/*Smartphone medium ----------*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 424px) {
+    /*banner*/
+    .content-slider .section-boxed br {
+        display: none;
+    }
+    .content-slider .button {
+        width: 270px !important;
+    }
+    /* Sobre */
+    #sobre {
+        text-align: center;
+        padding-left: 3%;
+        height: 800px;
+    }
+    #sobre h1 br, #sobre p br {
+        display: none;
+    }
+    #sobre-bg-img{
+        display: none;
+    }
+    #logo-bottom {
+        bottom: 0;
+        margin-left: 18%;
+    }
+    /* video */
+    #retangulo {
+        height: 700px;
+    }
+    #texto-video{
+        margin: 20px !important;
+        width: inherit !important;
+    }
+    #video-player {
+        margin-left: 6.4%;
+        margin-top: 520px;
+    }
+    #video {
+        height: 170px;
+    }
+    #video-section br {
+        display: none;
+    }
+    /* blogs */
+    #blog-title-section {
+        top: 1510px !important;
+    }
+    .page-id-22 .pexeto-recent-posts {
+        top: 1700px !important;
+    }
+    /* infog */
+    #smile-no-mundo {
+        top: 5420px !important;
+    }
+    /* form */
+    #contato {
+        top: 5550px;
+        width: auto;
+        left: unset;
+        margin-left: unset;
+    }
+    #wpforms-submit-38 {
+        margin-left: unset;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    /* footer */
+    #footer-div {
+        text-align: center;
+        top: 6075px;
+    }
+}
+@media only screen and (min-device-width : 425px) and (max-device-width : 480px) {
+    /*banner*/
+    .content-slider .section-boxed br {
+        display: none;
+    }
+    .content-slider .button {
+        width: 270px !important;
+    }
+    /* Sobre */
+    #sobre {
+        text-align: center;
+        padding-left: 3%;
+        height: 800px;
+    }
+    #sobre h1 br, #sobre p br {
+        display: none;
+    }
+    #sobre-bg-img{
+        display: none;
+    }
+    #logo-bottom {
+        bottom: 0;
+        margin-left: 18%;
+    }
+    /* video */
+    #retangulo {
+        height: 700px;
+    }
+    #texto-video{
+        margin: 20px !important;
+        width: inherit !important;
+    }
+    #video-player {
+        margin-left: 9.7%;
+        margin-top: 515px;
+    }
+    #video {
+        height: 175px;
+    }
+    #video-section br {
+        display: none;
+    }
+    /* blogs */
+    #blog-title-section {
+        top: 1510px !important;
+        width: 98%;
+    }
+    .page-id-22 .pexeto-recent-posts {
+        top: 1700px !important;
+    }
+    /* infog */
+    #smile-no-mundo {
+        top: 5420px !important;
+    }
+    /* form */
+    #contato {
+        top: 5550px;
+        width: auto;
+        left: unset;
+        margin-left: unset;
+    }
+    #wpforms-submit-38 {
+        margin-left: unset;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    /* footer */
+    #footer-div {
+        text-align: center;
+        top: 6075px;
     }
 }
 /* iPads (portrait and landscape) ----------- */
@@ -541,36 +695,21 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 
 /*---RESPONSIVIDADE-PC---*/
 @media screen and (min-width: 1023px) and (max-width: 1280px){
-    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
-        padding-right: 10% !important;
-        font-size: 11px;
+    /*sobre*/
+    #sobre-bg-img {
+        top: 17%;
     }
-    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
-        padding-right: 0 !important;
-        padding-left: 11.5% !important;
-        font-size: 11px;
+    #sobre-bg-img img.size-full{
+        max-width: 75%;
     }
-    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
-        font-size: unset;
-    }
-    #footer-logo {
-        margin-right: 30px;
-        width: fit-content;
-    }
-    #footer-text {
-        margin-right: 0;
-    }
-    #footer-div hr, #smile-no-mundo{
-        margin-left: -4.4%;
-        width: 99.99vw;
-    }
+    /*video*/
     #video-player {
         margin-top: 5.6%;
         margin-left: 45%;
     }
     #texto-video {
         margin-top: 5%;
-        margin-left: 4%;
+        margin-left: 2%;
     }
     #retangulo {
         height: 400px;
@@ -581,6 +720,43 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
     #video-section h2 {
         font-size: 28px;
+    }
+    /*blog*/
+    #blog-title-section {
+        top: 1250px;
+    }
+    /*form*/
+    #contato {
+        width: 50%;
+        margin-left: -25%;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 47px !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-right: 0 !important;
+        padding-left: 55px !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+        font-size: unset;
+    }
+    /*footer*/
+    #footer-logo {
+        margin-right: 30px;
+        width: fit-content;
+    }
+    #footer-text {
+        margin-right: 0;
+    }
+    #footer-data {
+        width: 46%;
+        padding-top: 0px;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
     }
 }
 
