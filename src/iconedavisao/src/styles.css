@@ -200,6 +200,15 @@ p strong {
     margin: 0 4%;
 }
 
+.page-id-22 .pexeto-recent-posts .cols-3 .col {
+    height: 587px;
+    position: relative;
+}
+.page-id-22 .pexeto-recent-posts .read-more {
+    position: absolute;
+    bottom: 0;
+}
+
 .page-id-22 .rp h4 {
     font-family: es-semibold;
     font-size: 25pt;
@@ -245,7 +254,7 @@ p strong {
 
 #smile-no-mundo {
     position: absolute;
-    top: 2750px;
+    top: 2800px;
     width: 99.5vw;
     margin-left: -5%;
 }
@@ -256,7 +265,7 @@ p strong {
 
 #contato {
     position: absolute;
-    top: 3190px;
+    top: 3230px;
     width: 40%;
     left: 50%;
     margin-left: -20%;
@@ -429,7 +438,16 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 /*---END---*/
 /*---BLOG---*/
 .page-id-7 .content-slider-wrapper{
-    height: 595px;
+    height: 579px;
+}
+.page-id-7 .post-title {
+    font-family: es-semibold;
+}
+.page-id-7 .lp-title {
+    font-family: gothamlight;
+}
+.page-id-7 .lp-post-info {
+    font-family: es-light; 
 }
 /*---END---*/
 /*---RESPONSIVIDADE---*/
