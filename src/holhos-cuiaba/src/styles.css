@@ -17,6 +17,9 @@
     width: 115px;
     height: 85px;
 }
+#header .navigation-container {
+    margin-top: 15px;
+}
 /*---END---*/
 
 /*---BANNER---*/
@@ -40,12 +43,14 @@
 
 .content-slider h2.cs-element {
     font-family: es-semibold;
+    color: black;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
 .content-slider p.cs-element {
     font-family: gothamlight;
+    color: black;
     letter-spacing: 2px;
     line-height: 1.4;
 }
@@ -61,6 +66,7 @@
     border-radius: 0;
     font-family: es-semibold;
     font-size: 15pt;
+    color: white;
 }
 
 /*---END---*/
@@ -93,7 +99,8 @@ p {
 
 p strong {
     font-family: gothammedium;
-    color: #808080
+    color: #808080;
+    font-weight: normal;
 }
 
 #sobre {
