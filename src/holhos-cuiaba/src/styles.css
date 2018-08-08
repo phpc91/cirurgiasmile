@@ -464,10 +464,13 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 /* Smartphones small ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
     /*banner*/
-    .content-slider .section-boxed br {
+    .page-id-22 .content-slider {
+        padding-top: 120px;
+    }
+    .page-id-22 .content-slider .section-boxed br {
         display: none;
     }
-    .content-slider .button {
+    .page-id-22 .content-slider .button {
         width: 270px !important;
     }
     /* Sobre */
@@ -503,6 +506,9 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
     #video-section br {
         display: none;
+    }
+    #video-section h2 {
+        margin-bottom: 30px;
     }
     /* blogs */
     #blog-title-section {
@@ -542,10 +548,13 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 /*Smartphone medium ----------*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 424px) {
     /*banner*/
-    .content-slider .section-boxed br {
+    .page-id-22 .content-slider {
+        padding-top: 120px;
+    }
+    .page-id-22 .content-slider .section-boxed br {
         display: none;
     }
-    .content-slider .button {
+    .page-id-22 .content-slider .button {
         width: 270px !important;
     }
     /* Sobre */
@@ -619,10 +628,13 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 }
 @media only screen and (min-device-width : 425px) and (max-device-width : 480px) {
     /*banner*/
-    .content-slider .section-boxed br {
+    .page-id-22 .content-slider {
+        padding-top: 120px;
+    }
+    .page-id-22 .content-slider .section-boxed br {
         display: none;
     }
-    .content-slider .button {
+    .page-id-22 .content-slider .button {
         width: 270px !important;
     }
     /* Sobre */
@@ -754,7 +766,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
     /*footer*/
     #footer-logo {
-        margin-right: 30px;
+        margin-right: 50px;
         width: fit-content;
     }
     #footer-text {
