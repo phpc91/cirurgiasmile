@@ -172,6 +172,7 @@ p strong {
     position: absolute;
     top: 1375px;
     margin-left: 7%;
+    width: 95%;
 }
 
 #blog-title-section h4 {
@@ -187,13 +188,21 @@ p strong {
 }
 
 .page-id-2 .pexeto-recent-posts {
-    position: absolute;
-    width: 100%;
-    top: 1540px;
+    width: 91vw;
+    margin-left: -7%;    
 }
 
 .page-id-2 .pexeto-recent-posts .cols-wrapper {
     margin: 0 4%;
+}
+
+.page-id-2 .pexeto-recent-posts .cols-3 .col {
+    height: 587px;
+    position: relative;
+}
+.page-id-2 .pexeto-recent-posts .read-more {
+    position: absolute;
+    bottom: 0;
 }
 
 .page-id-2 .rp h4 {
@@ -241,7 +250,7 @@ p strong {
 
 #smile-no-mundo {
     position: absolute;
-    top: 2200px;
+    top: 2800px;
     width: 99.5vw;
     margin-left: -5%;
 }
@@ -252,7 +261,7 @@ p strong {
 
 #contato {
     position: absolute;
-    top: 2650px;
+    top: 3250px;
     width: 40%;
     left: 50%;
     margin-left: -20%;
@@ -301,7 +310,7 @@ p strong {
     padding: 0;
     color: white;
     position: relative;
-    margin-left: 84%;
+    float: right;
 }
 
 div.wpforms-container-full .wpforms-form input[type=text] {
@@ -310,14 +319,12 @@ div.wpforms-container-full .wpforms-form input[type=text] {
 }
 
 /*radio button style*/
-
 .depth-1 input {
     position: absolute !important;
     clip: rect(0, 0, 0, 0);
     border: 0;
     overflow: hidden;
 }
-
 .depth-1 label {
     color: #747474;
     -webkit-transition: all 0.1s ease-in-out;
@@ -326,31 +333,25 @@ div.wpforms-container-full .wpforms-form input[type=text] {
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
-
 .depth-1 label:hover {
     cursor: pointer;
 }
-
 .depth-1 input:checked+label {
     background-color: #425068;
     color: #b1b5bd;
 }
-
 div.wpforms-container-full .wpforms-form .wpforms-field-label-inline, div.wpforms-container-full .wpforms-form textarea {
     border: 1px solid #aaaaaa;
     padding: 8px;
     letter-spacing: 2px;
 }
-
 div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
     padding-right: 6% !important;
 }
-
 div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
     padding-left: 7.4% !important;
     padding-right: 0 !important;
 }
-
 /*end radio button style*/
 
 /*---END---*/
@@ -359,10 +360,9 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 #footer {
     height: 0;
 }
-
 #footer-div {
     position: absolute;
-    top: 3150px;
+    top: 3750px;
     width: 100%;
 }
 
@@ -434,13 +434,17 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 /*---END---*/
 /*---RESPONSIVIDADE---*/
 /*---RESPONSIVIDADE-MOBILE---*/
-/* Smartphones (portrait and landscape) ideal width:375px----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Smartphones small ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
     /*banner*/
-    .content-slider .section-boxed br {
+    .page-id-2 .content-slider {
+        padding-top: 400px;
+        padding-left: unset;
+    }
+    .page-id-2 .content-slider .section-boxed br {
         display: none;
     }
-    .content-slider .button {
+    .page-id-2 .content-slider .button {
         width: 270px !important;
     }
     /* Sobre */
@@ -468,35 +472,38 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         width: inherit !important;
     }
     #video-player {
-        margin-left: 6%;
-        margin-top: 520px;
+        margin-left: 5.4%;
+        margin-top: 530px;
     }
     #video {
-        height: 170px;
+        height: 150px;
     }
     #video-section br {
         display: none;
     }
+    #video-section h2 {
+        margin-bottom: 30px;
+    }
     /* blogs */
     #blog-title-section {
         top: 1510px !important;
+        width: 95%;
     }
-    .page-id-2 .pexeto-recent-posts {
+    .page-id-18 .pexeto-recent-posts {
         top: 1700px !important;
     }
     /* infog */
     #smile-no-mundo {
-        /*=1700+1890*/
-        top: 3600px !important;
+        top: 5450px !important;
     }
     /* form */
     #contato {
-        top: 3750px;
+        top: 5550px;
         width: auto;
         left: unset;
         margin-left: unset;
     }
-    #wpforms-submit-41 {
+    #wpforms-submit-38 {
         margin-left: unset;
     }
     div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
@@ -510,7 +517,171 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     /* footer */
     #footer-div {
         text-align: center;
-        top: 4275px;
+        top: 6075px;
+    }
+}
+/*Smartphone medium ----------*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 424px) {
+    /*banner*/
+    .page-id-2 .content-slider {
+        padding-top: 400px;
+        padding-left: unset;
+    }
+    .page-id-2 .content-slider .section-boxed br {
+        display: none;
+    }
+    .page-id-2 .content-slider .button {
+        width: 270px !important;
+    }
+    /* Sobre */
+    #sobre {
+        text-align: center;
+        padding-left: 3%;
+        height: 800px;
+    }
+    #sobre h1 br, #sobre p br {
+        display: none;
+    }
+    #sobre-bg-img{
+        display: none;
+    }
+    #logo-bottom {
+        bottom: 0;
+        margin-left: 18%;
+    }
+    /* video */
+    #retangulo {
+        height: 700px;
+    }
+    #texto-video{
+        margin: 20px !important;
+        width: inherit !important;
+    }
+    #video-player {
+        margin-left: 6.4%;
+        margin-top: 520px;
+    }
+    #video {
+        height: 170px;
+    }
+    #video-section br {
+        display: none;
+    }
+    /* blogs */
+    #blog-title-section {
+        top: 1510px !important;
+    }
+    .page-id-18 .pexeto-recent-posts {
+        top: 1700px !important;
+    }
+    /* infog */
+    #smile-no-mundo {
+        top: 5420px !important;
+    }
+    /* form */
+    #contato {
+        top: 5550px;
+        width: auto;
+        left: unset;
+        margin-left: unset;
+    }
+    #wpforms-submit-38 {
+        margin-left: unset;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    /* footer */
+    #footer-div {
+        text-align: center;
+        top: 6075px;
+    }
+}
+@media only screen and (min-device-width : 425px) and (max-device-width : 480px) {
+    /*banner*/
+    .page-id-2 .content-slider {
+        padding-top: 400px;
+        padding-left: unset;
+    }
+    .page-id-2 .content-slider .section-boxed br {
+        display: none;
+    }
+    .page-id-2 .content-slider .button {
+        width: 270px !important;
+    }
+    /* Sobre */
+    #sobre {
+        text-align: center;
+        padding-left: 3%;
+        height: 800px;
+    }
+    #sobre h1 br, #sobre p br {
+        display: none;
+    }
+    #sobre-bg-img{
+        display: none;
+    }
+    #logo-bottom {
+        bottom: 0;
+        margin-left: 18%;
+    }
+    /* video */
+    #retangulo {
+        height: 700px;
+    }
+    #texto-video{
+        margin: 20px !important;
+        width: inherit !important;
+    }
+    #video-player {
+        margin-left: 9.7%;
+        margin-top: 515px;
+    }
+    #video {
+        height: 175px;
+    }
+    #video-section br {
+        display: none;
+    }
+    /* blogs */
+    #blog-title-section {
+        top: 1510px !important;
+        width: 98%;
+    }
+    .page-id-18 .pexeto-recent-posts {
+        top: 1700px !important;
+    }
+    /* infog */
+    #smile-no-mundo {
+        top: 5420px !important;
+    }
+    /* form */
+    #contato {
+        top: 5550px;
+        width: auto;
+        left: unset;
+        margin-left: unset;
+    }
+    #wpforms-submit-38 {
+        margin-left: unset;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    /* footer */
+    #footer-div {
+        text-align: center;
+        top: 6075px;
     }
 }
 /* iPads (portrait and landscape) ----------- */
@@ -523,29 +694,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 
 /*---RESPONSIVIDADE-PC---*/
 @media screen and (min-width: 1023px) and (max-width: 1280px){
-    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
-        padding-right: 10% !important;
-        font-size: 11px;
-    }
-    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
-        padding-right: 0 !important;
-        padding-left: 11.5% !important;
-        font-size: 11px;
-    }
-    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
-        font-size: unset;
-    }
-    #footer-logo {
-        margin-right: 30px;
-        width: fit-content;
-    }
-    #footer-text {
-        margin-right: 0;
-    }
-    #footer-div hr, #smile-no-mundo{
-        margin-left: -4.4%;
-        width: 99.99vw;
-    }
+    /*video*/
     #video-player {
         margin-top: 5.6%;
         margin-left: 45%;
@@ -564,9 +713,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #video-section h2 {
         font-size: 28px;
     }
-}
-
-@media screen and (min-width: 1281px) and (max-width: 1367px){
+    /*form*/
     div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
         padding-right: 10% !important;
         font-size: 11px;
@@ -579,14 +726,22 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
         font-size: unset;
     }
+    /*footer*/
     #footer-logo {
         margin-right: 30px;
         width: fit-content;
+    }
+    #footer-text {
+        margin-right: 0;
     }
     #footer-div hr, #smile-no-mundo{
         margin-left: -4.4%;
         width: 99.99vw;
     }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1367px){
+    /*video*/
     #video-player {
         margin-top: 5.6%;
         margin-left: 38%;
@@ -605,9 +760,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #video-section h2 {
         font-size: 30px;
     }
-}
-
-@media screen and (min-width: 1368px) and (max-width: 1440px){
+    /*form*/
     div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
         padding-right: 10% !important;
         font-size: 11px;
@@ -620,6 +773,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
         font-size: unset;
     }
+    /*footer*/
     #footer-logo {
         margin-right: 30px;
         width: fit-content;
@@ -628,6 +782,10 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         margin-left: -4.4%;
         width: 99.99vw;
     }
+}
+
+@media screen and (min-width: 1368px) and (max-width: 1440px){
+    /*video*/
     #video-player {
         margin-top: 5.6%;
         margin-left: 38%;
@@ -646,6 +804,28 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #video-section h2 {
         font-size: 32px;
     }
+    /*form*/
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
+        padding-right: 10% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+        padding-right: 0 !important;
+        padding-left: 11.5% !important;
+        font-size: 11px;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+        font-size: unset;
+    }
+    /*footer*/
+    #footer-logo {
+        margin-right: 30px;
+        width: fit-content;
+    }
+    #footer-div hr, #smile-no-mundo{
+        margin-left: -4.4%;
+        width: 99.99vw;
+    }
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
@@ -653,35 +833,55 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         margin-left: 13.5%;
         margin-right: 13.5%;
     }
-
+    /*sobre*/
     #sobre {
         width: 100%;
         padding-left: 10%;
     }
-
     #sobre-bg-img {
         left: 32%;
     }
-
-
+    /*blog*/
+    #blog-title-section {
+        margin-left: 2%;
+    }
+    .page-id-2 .pexeto-recent-posts {
+        width: 80vw;
+    }
+    /*infog*/
     #smile-no-mundo {
         width: 99.9vw;
         margin-left: -18.5%;
     }
-
+    /*form*/
     #contato {
-        top: 2750px;
+        top: 3330px;
     }
     #contato div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
         letter-spacing: 1.8px !important;
     }
-
+    /*footer*/
     #footer-div {
-        top: 3250px;
+        top: 3825px;
     }
-
+    #footer-div .cols-wrapper {
+        width: 99vw;
+        margin-left: -17%;
+    }
     #footer-div hr {
         width: 99.9vw;
         margin-left: -18.5%;
+    }
+    #footer-logo {
+        width: 12%;
+        margin-left: 12%;
+    }
+    #footer-text {
+        width: auto;
+        margin-right: 25px;
+    }
+    #footer-data {
+        width: auto;
+        margin-left: 15%;
     }
 }
