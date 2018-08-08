@@ -777,7 +777,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1366px){
+@media screen and (min-width: 1281px) and (max-width: 1367px){
     /*sobre*/
     /*video*/
     #video-player {
@@ -824,7 +824,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
 }
 
-@media screen and (min-width: 1367px) and (max-width: 1440px){
+@media screen and (min-width: 1368px) and (max-width: 1440px){
     /*video*/
     #video-player {
         margin-top: 5.6%;
