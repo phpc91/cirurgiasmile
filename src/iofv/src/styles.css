@@ -10,7 +10,6 @@
 /*---HEADER---*/
 
 #menu {
-    margin-top: 4%;
     font-family: es-semibold;
 }
 #header .navigation-container {
@@ -445,9 +444,12 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     height: 31px;   
 }
 
-/*---BLOG---*/
+/*---BLOG-PAGE---*/
 .page-id-13 .content-slider-wrapper{
     height: 579px;
+}
+.page-id-13 #menu>ul>li>a {
+    color: white;
 }
 .page-id-13 .post-title {
     font-family: es-semibold;
@@ -503,6 +505,9 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
     #video-section br {
         display: none;
+    }
+    #video-section h2 {
+        margin-bottom: 30px;
     }
     /* blogs */
     #blog-title-section {
@@ -756,13 +761,15 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #footer-logo {
         margin-right: 30px;
         width: fit-content;
+        margin-left: 4%;
     }
     #footer-text {
         margin-right: 0;
     }
     #footer-data {
-        width: 46%;
+        width: 51%;
         padding-top: 0px;
+        margin-left: 7%;
     }
     #footer-div hr, #smile-no-mundo{
         margin-left: -4.4%;
@@ -770,7 +777,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1367px){
+@media screen and (min-width: 1281px) and (max-width: 1366px){
     /*sobre*/
     /*video*/
     #video-player {
@@ -809,6 +816,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #footer-logo {
         margin-right: 30px;
         width: fit-content;
+        margin-left: 6%;
     }
     #footer-div hr, #smile-no-mundo{
         margin-left: -4.4%;
@@ -816,7 +824,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
 }
 
-@media screen and (min-width: 1368px) and (max-width: 1440px){
+@media screen and (min-width: 1367px) and (max-width: 1440px){
     /*video*/
     #video-player {
         margin-top: 5.6%;
@@ -906,7 +914,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
     #footer-logo {
         width: 12%;
-        margin-left: 5%;
+        margin-left: 12%;
     }
     #disclaimer {
         width: auto;
