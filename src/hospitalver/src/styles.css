@@ -12,8 +12,11 @@
 #menu {
     font-family: es-semibold;
 }
+#header #logo-container {
+    margin-top: 0;
+}
 #header .navigation-container {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 /*---END---*/
 
@@ -32,8 +35,8 @@
 }
 
 .content-slider {
-    padding-top: 305px;
-    padding-left: 4%;
+    padding-top: 200px;
+    padding-right: 10%;
 }
 
 .content-slider h2.cs-element {
@@ -51,7 +54,7 @@
 }
 
 .content-slider .button {
-    background-image: url('http://cirurgiasmile.com.br/hospitalver/wp-content/uploads/sites/11/2018/08/agende-consulta-holhos.png');
+    background-image: url('http://cirurgiasmile.com.br/hospitalver/wp-content/uploads/sites/12/2018/08/agende-consulta-sjc.png');
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -68,7 +71,7 @@
 
 /*---SOBRE---*/
 
-.page-id-18 #section-1 {
+.page-id-15 #section-1 {
     height: 3150px;
     margin-top: 40px;
     margin-bottom: 0;
@@ -197,25 +200,25 @@ p strong {
     padding: 0;
 }
 
-.page-id-18 .pexeto-recent-posts {
+.page-id-15 .pexeto-recent-posts {
     width: 91vw;
     margin-left: -7%;    
 }
 
-.page-id-18 .pexeto-recent-posts .cols-wrapper {
+.page-id-15 .pexeto-recent-posts .cols-wrapper {
     margin: 0 4%;
 }
 
-.page-id-18 .pexeto-recent-posts .cols-3 .col {
+.page-id-15 .pexeto-recent-posts .cols-3 .col {
     height: 587px;
     position: relative;
 }
-.page-id-18 .pexeto-recent-posts .read-more {
+.page-id-15 .pexeto-recent-posts .read-more {
     position: absolute;
     bottom: 0;
 }
 
-.page-id-18 .rp h4 {
+.page-id-15 .rp h4 {
     font-family: es-semibold;
     font-size: 25pt;
     line-height: 1.2;
@@ -225,7 +228,7 @@ p strong {
     margin-bottom: 30px;
 }
 
-.page-id-18 .rp p {
+.page-id-15 .rp p {
     font-family: gothamlight;
     width: 65%;
     color: #000000;
@@ -438,19 +441,19 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 }
 
 /*---BLOG-PAGE---*/
-.page-id-13 .content-slider-wrapper{
+.page-id-17 .content-slider-wrapper{
     height: 579px;
 }
-.page-id-13 #menu>ul>li>a {
+.page-id-17 #menu>ul>li>a {
     color: white;
 }
-.page-id-13 .post-title {
+.page-id-17 .post-title {
     font-family: es-semibold;
 }
-.page-id-13 .lp-title {
+.page-id-17 .lp-title {
     font-family: gothamlight;
 }
-.page-id-13 .lp-post-info {
+.page-id-17 .lp-post-info {
     font-family: es-light; 
 }
 
@@ -506,7 +509,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #blog-title-section {
         top: 1510px !important;
     }
-    .page-id-18 .pexeto-recent-posts {
+    .page-id-15 .pexeto-recent-posts {
         top: 1700px !important;
     }
     /* infog */
@@ -584,7 +587,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #blog-title-section {
         top: 1510px !important;
     }
-    .page-id-18 .pexeto-recent-posts {
+    .page-id-15 .pexeto-recent-posts {
         top: 1700px !important;
     }
     /* infog */
@@ -662,7 +665,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         top: 1510px !important;
         width: 98%;
     }
-    .page-id-18 .pexeto-recent-posts {
+    .page-id-15 .pexeto-recent-posts {
         top: 1700px !important;
     }
     /* infog */
@@ -760,7 +763,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
         margin-right: 0;
     }
     #footer-data {
-        width: 51%;
+        width: 52%;
         padding-top: 0px;
         margin-left: 7%;
     }
@@ -770,7 +773,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1366px){
+@media screen and (min-width: 1281px) and (max-width: 1367px){
     /*sobre*/
     /*video*/
     #video-player {
@@ -817,7 +820,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     }
 }
 
-@media screen and (min-width: 1367px) and (max-width: 1440px){
+@media screen and (min-width: 1368px) and (max-width: 1440px){
     /*video*/
     #video-player {
         margin-top: 5.6%;
@@ -862,7 +865,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
-    .page-id-18 #section-1 {
+    .page-id-15 #section-1 {
         margin-left: 13.5%;
         margin-right: 13.5%;
     }
@@ -878,7 +881,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
     #blog-title-section {
         margin-left: 2%;
     }
-    .page-id-18 .pexeto-recent-posts {
+    .page-id-15 .pexeto-recent-posts {
         width: 80vw;
     }
     /*infog*/
