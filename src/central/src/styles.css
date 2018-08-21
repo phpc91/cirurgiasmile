@@ -276,6 +276,8 @@ p strong {
     margin: 0 23%;
     background-color: white; 
     padding: 50px;
+    height: 750px;
+    overflow-y: scroll;
 }
 
 #lista-clinicas ul {
