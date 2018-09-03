@@ -15,8 +15,11 @@
 #header #logo-container {
     margin-top: 0;
 }
+#header #logo-container img {
+    width: 120px;
+}
 #header .navigation-container {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 /*---END---*/
 
