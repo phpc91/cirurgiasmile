@@ -313,8 +313,8 @@ p strong {
     letter-spacing: 1px;
     padding: 0;
     color: white;
-    position: absolute;
-    right: 0;
+    position: relative;
+    float: right;
 }
 
 div.wpforms-container-full .wpforms-form input[type=text] {
