@@ -437,7 +437,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline[for="wpform
 
 #footer-div {
   position: absolute;
-  top: 3800px;
+  top: 3840px;
   width: 100%;
 }
 
@@ -1004,7 +1004,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline[for="wpform
   }
   /*footer*/
   #footer-div {
-    top: 3825px;
+    top: 3880px;
   }
   #footer-div .cols-wrapper {
     width: 99vw;
