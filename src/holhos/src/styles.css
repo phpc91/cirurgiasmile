@@ -282,6 +282,10 @@ p {
   font-family: es-regular;
 }
 
+.wpforms-field-label[for="wpforms-41-field_9"] {
+  margin-bottom: 20px !important;
+}
+
 #wpforms-submit-41 {
   border: unset;
   background-color: #00000000;
@@ -298,7 +302,8 @@ p {
   float: right;
 }
 
-div.wpforms-container-full .wpforms-form input[type=text] {
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email] {
   border-radius: 0;
   border: 1px solid #aaaaaa;
 }
@@ -337,15 +342,58 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline, div.wpform
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-1 {
-  padding-right: 34px !important;
-}
-
-div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
-  padding-left: 35px !important;
   padding-right: 0 !important;
 }
 
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline[for="wpforms-41-field_7_1"] {
+  display: flex;
+  flex: 1;
+  margin-right: 4% !important;
+  justify-content: center;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline[for="wpforms-41-field_7_2"] {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-left: 4% !important;
+  margin-bottom: 5px !important;
+}
+
 /*end radio button style*/
+
+/* meio de contato */
+div.wpforms-container-full .wpforms-form .wpforms-list-3-columns ul li {
+  padding-right: 0 !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline[for="wpforms-41-field_9_1"] {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-right: 4% !important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline[for="wpforms-41-field_9_2"] {
+  display: flex;
+  flex: 1;
+  margin-left: 4% !important;
+  margin-right: 4% !important;
+  justify-content: center;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline[for="wpforms-41-field_9_3"] {
+  display: flex;
+  flex: 1;
+  margin-left: 4% !important;
+  margin-right: 0 !important;
+  justify-content: center;
+  margin-bottom: 5px !important;
+}
 
 /*---END---*/
 
@@ -357,7 +405,7 @@ div.wpforms-container-full .wpforms-form .wpforms-list-2-columns ul li.choice-2 
 
 #footer-div {
   position: absolute;
-  top: 3750px;
+  top: 3860px;
   width: 100%;
 }
 
